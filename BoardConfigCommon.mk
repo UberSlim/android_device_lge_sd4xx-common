@@ -217,6 +217,9 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 -include device/lge/common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
